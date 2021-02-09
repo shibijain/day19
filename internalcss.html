@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		 /*-- this is for whole program css universal selector */
+		 *{
+		 	background-color: pink;
+		 	color: chocolate;
+		 }
+/*this is for particular type selector*/
+		  p{
+		  	font-family:sans-serif;
+		 	background-color:yellow;
+		 	color: green;
+		 }
+
+/*this is for id selector*/
+		  #myid{
+		  	text-align: center;
+		 	background-color:blue;
+		 	color: chocolate;
+		 }
+
+		 /*this is for class selector */
+		  #myclass{
+		  	margin-top:100px;
+		 	background-color:green;
+		 	color: chocolate;
+		 }
+/*this is for combinator selector */
+		  p a{
+		 	background-color: red;
+		 	color: chocolate;
+		 }
+
+
+		 /*this is for adjacen selector */
+		  p+h1{
+		 	background-color:silver;
+		 	color: chocolate;
+		 }
+
+	</style>
+</head>
+<body>
+<p id="myid">this is first para</p>
+<p>this is second para</p>
+<p >this is third para</p>
+<h1>this is for adjacent selector</h1>
+<p>this is foourth para</p>
+<p>this is fifth para</p>
+
+<h1 class="myclass"> this is heading one</h1>
+</body>
+</html>
